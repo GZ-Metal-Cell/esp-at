@@ -1,0 +1,14 @@
+# Custom build configuration - Enable WebSocket and AT command printing
+
+# Enable WebSocket support
+CONFIG_AT_WS_COMMAND_SUPPORT=y
+
+# Enable AT command printing and debugging
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+CONFIG_LOG_DEFAULT_LEVEL_ERROR=n
+
+# Enable additional logging for debugging
+CONFIG_AT_DEBUG_LOG_LEVEL_INFO=y
+
+# Optional: Enable verbose output
+CONFIG_LOG_COLORS=y
