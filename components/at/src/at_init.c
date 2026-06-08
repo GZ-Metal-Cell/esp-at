@@ -355,6 +355,8 @@ static void at_ota_mark_app_valid_cancel_rollback(void)
 
 void esp_at_init(void)
 {
+    printf("=================================\n");
+
     // set log level to max
     esp_log_level_set("*", ESP_LOG_MAX);
 
